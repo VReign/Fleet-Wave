@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'CS-Interface';
+  src:
+    url('fonts/CS-Interface.ttf?2eqyst') format('truetype'),
+    url('fonts/CS-Interface.woff?2eqyst') format('woff'),
+    url('fonts/CS-Interface.svg?2eqyst#CS-Interface') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="cs-"], [class*=" cs-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'CS-Interface' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cs-circle:before {
+  content: "\e922";
+}
+.cs-scissors:before {
+  content: "\e902";
+}
+.cs-question-hexagon:before {
+  content: "\e900";
+}
+.cs-save:before {
+  content: "\e901";
+}
+.cs-search:before {
+  content: "\e906";
+}
+.cs-send:before {
+  content: "\e907";
+}
+.cs-settings-2:before {
+  content: "\e908";
+}
+.cs-sort:before {
+  content: "\e909";
+}
+.cs-star:before {
+  content: "\e90a";
+}
+.cs-star-full:before {
+  content: "\e90b";
+}
+.cs-user:before {
+  content: "\e90c";
+}
+.cs-warning-hexagon:before {
+  content: "\e90d";
+}
+.cs-archive:before {
+  content: "\e90e";
+}
+.cs-arrow-double-left:before {
+  content: "\e90f";
+}
+.cs-arrow-double-right:before {
+  content: "\e910";
+}
+.cs-bin:before {
+  content: "\e911";
+}
+.cs-calendar:before {
+  content: "\e912";
+}
+.cs-check:before {
+  content: "\e913";
+}
+.cs-check-square:before {
+  content: "\e914";
+}
+.cs-chevron-bottom:before {
+  content: "\e915";
+}
+.cs-chevron-left:before {
+  content: "<";
+}
+.cs-chevron-right:before {
+  content: ">";
+}
+.cs-chevron-top:before {
+  content: "\e918";
+}
+.cs-clipboard:before {
+  content: "\e919";
+}
+.cs-clock:before {
+  content: "\e91a";
+}
+.cs-close:before {
+  content: "\e91b";
+}
+.cs-close-circle:before {
+  content: "\e91c";
+}
+.cs-duplicate:before {
+  content: "\e91d";
+}
+.cs-edit-square:before {
+  content: "\e91e";
+}
+.cs-error-hexagon:before {
+  content: "\e91f";
+}
+.cs-file-text:before {
+  content: "\e920";
+}
+.cs-gear:before {
+  content: "\e921";
+}
+.cs-info-hexagon:before {
+  content: "\e903";
+}
+.cs-menu:before {
+  content: "\e904";
+}
+.cs-more-horizontal:before {
+  content: "\e905";
+}
+div#nav{background: var(--background);}
+.asx-parell {
+  z-index: 999;
+  right: 0;
+  padding: 1rem;
+  position: relative;
+  /* top: -15px; */
+  justify-content: space-between;
+  background: var(--foreground);
+}
+a{color: white !important;}
+.daylight-mapz{
+  padding: 0 !important;
+    height: 77vh;
+    width: 100%;
+    BORDER-RADIUS: 1rem;
+}
+html[data-show=true] #root {
+  opacity: 1;
+  background: var(--foreground) !important;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .03) !important;
+  background: var(--background) !important;
+  border-radius: var(--border-radius-lg);
+  border: initial;
+}
+.dashboard_bar {
+  margin-left: var(--nav-size);
+  font-size: large;
+  font-weight: 700;
+}
+.mp-tool{position: absolute;
+z-index: 9999;
+right: 2rem;
+}
+
+.mp-tool {
+  position: fixed;
+  z-index: 99999;
+  right: 1rem;
+  bottom: 1rem;
+  width: 300px;
+  height: 22rem;
+  background: var(--background);
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+main {
+  min-height: 100%;
+  padding-left: calc(var(--nav-size) + 1rem);
+  padding-right: 1rem !important;
+  padding-bottom: var(--main-spacing-vertical);
+}
+
+body {
+  background-color: var(--foreground) !important;
+
+}
+#myChart{
+  height: 150px !important;
+  width: 150px !important;
+
+}
+
+.svh{height:30vh !important}
+.tool-item{position: absolute;
+  z-index: 99999;
+  left: 20rem;
+  bottom: 8rem;
+  width: 275px;
+  height: 5.5rem;
+  background: var(--background);
+  padding: 1rem;
+  border-radius: .5rem;
+}
+.chartdta {
+  /* position: relative; */
+  margin-top: -85px;
+  /* left: 10%; */
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+  width: 150px;
+  height: 20px;
+  display: block;
+}
